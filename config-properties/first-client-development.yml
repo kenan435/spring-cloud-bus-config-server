@@ -2,4 +2,4 @@ mysql:
   properties:
     url: 'jdbc:mysql://localhost:3306/db_example'
     username: luis2
-    password: kurko
+    password: otherpassword
