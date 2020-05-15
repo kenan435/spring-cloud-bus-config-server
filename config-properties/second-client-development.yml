@@ -5,4 +5,4 @@ mysql:
     password: '{cipher}4ee24fac2f52bcaeccb8dc77e148caa07e9ccee0f5d8f86271b10532830ae10a'
 CoRE:
   properties:
-    url: 'http://dcdefrdlx045vi.dc.man.lan:5603/'	
+    url: 'http://dcdefrdlx045vi.dc.man.lan:5603/'
