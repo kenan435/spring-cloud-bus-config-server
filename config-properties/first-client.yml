@@ -4,5 +4,5 @@ info:
 mysql:
   properties:
     url: 'jdbc:mysql://mongodb:3306/db_example'
-    username: 'coolUsername_4_1stService'
+    username: 'much_coolUsername_4_1stService'
     password: 'coolPasswordInPlainText'
