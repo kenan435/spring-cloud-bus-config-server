@@ -5,4 +5,4 @@ mysql:
   properties:
     url: 'jdbc:mysql://mysql:3306/db_example/'
     username: 'coolUsername_4_2ndService'
-    password: '{cipher}3df3cf95bb99955ff9437185aabce78074e9980469e227acbf057544b377c45b'
+    password: '{cipher}ccb1ad52966ff36989c2d0c351a82b01909c3e43b6d1d66f809197fcb9fcd6f30cc13610f30a7779d99d583581407b47'
