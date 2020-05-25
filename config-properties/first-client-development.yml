@@ -1,5 +1,5 @@
 mysql:
   properties:
     url: 'jdbc:mysql://localhost:3306/db_example'
-    username: luisKurko_56
+    username: luisKurko_567
     password: otherpassword
