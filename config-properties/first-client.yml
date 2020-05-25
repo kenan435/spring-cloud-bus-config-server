@@ -1,6 +1,6 @@
 info:
   app:
-    service-name: First Service
+    service-name: First Service Updated
 mysql:
   properties:
     url: 'jdbc:mysql://mongodb:3306/db_example'
