@@ -1,3 +1,8 @@
 info:
   app:
-    service-name: Department Service
+    service-name: First Service
+mysql:
+  properties:
+    url: 'jdbc:mysql://mongodb:3306/db_example'
+    username: 'coolUsername_4_1stService'
+    password: 'coolPasswordInPlainText'
