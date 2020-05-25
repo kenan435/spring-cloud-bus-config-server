@@ -12,9 +12,9 @@ import org.springframework.web.bind.annotation.RestController;
 @EnableConfigurationProperties(value = MySqlProperties.class)
 public class FirstClientApplication {
 
-    public static void main(String[] args) {
-        SpringApplication.run(FirstClientApplication.class, args);
-    }
+  public static void main(String[] args) {
+    SpringApplication.run(FirstClientApplication.class, args);
+  }
 }
 
 @RefreshScope
@@ -22,10 +22,14 @@ public class FirstClientApplication {
 @RequiredArgsConstructor
 class ClientConfigurationController {
 
-    private final MySqlProperties mySqlProperties;
+  private final MySqlProperties mySqlProperties;
 
-    @GetMapping
-    public String getProperty() {
-        return mySqlProperties.getUsername() + " - " + mySqlProperties.getPassword();
-    }
+  @GetMapping("/service")
+  public String getProperty() {
+    return mySqlProperties.getUsername()
+        + " - "
+        + mySqlProperties.getPassword()
+        + " - "
+        + mySqlProperties.getUrl();
+  }
 }

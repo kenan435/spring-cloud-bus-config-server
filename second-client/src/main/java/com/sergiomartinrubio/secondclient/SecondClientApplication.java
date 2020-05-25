@@ -12,10 +12,9 @@ import org.springframework.web.bind.annotation.RestController;
 @EnableConfigurationProperties(value = MySqlProperties.class)
 public class SecondClientApplication {
 
-    public static void main(String[] args) {
-        SpringApplication.run(SecondClientApplication.class, args);
-    }
-
+  public static void main(String[] args) {
+    SpringApplication.run(SecondClientApplication.class, args);
+  }
 }
 
 @RefreshScope
@@ -23,11 +22,10 @@ public class SecondClientApplication {
 @RequiredArgsConstructor
 class ClientConfigurationController {
 
+  private final MySqlProperties mySqlProperties;
 
-    private final MySqlProperties mySqlProperties;
-
-    @GetMapping
-    public String getProperty() {
-        return mySqlProperties.getUsername() + " - " + mySqlProperties.getPassword();
-    }
+  @GetMapping
+  public String getProperty() {
+    return mySqlProperties.getUsername() + " - " + mySqlProperties.getPassword();
+  }
 }
