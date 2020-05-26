@@ -1,8 +1,8 @@
 info:
   app:
-    service-name: First Service Updated
+    service-name: First Service
 mysql:
   properties:
     url: 'jdbc:mysql://mongodb:3306/db_example'
-    username: 'much_coolUsername_4_1stService'
-    password: 'coolPasswordInPlainText'
+    username: 'coolUsername_1stService'
+    password: 'passwordInPlainText'
